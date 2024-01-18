@@ -12,7 +12,6 @@ env:
   DOCKER_IMAGE_NAME: sammie-msf-azure-ttt
   AZURE_WEBAPP_NAME: sammie-msf-ttt-app
   ###############################################
-
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
